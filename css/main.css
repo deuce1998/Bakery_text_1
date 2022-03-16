@@ -40,7 +40,12 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+    color: #000000;
+}
+.text-nazakaz a:hover{
+    text-decoration-color: rgb(0, 0, 0);
     color: #000000;
 }
 #nazakaz .text-nazakaz ul{
